@@ -6,7 +6,7 @@
               v-model="firstname"
               label="E-mail"
               required
-              color="#FBC02D"
+              color="black"
           ></v-text-field>
         </v-flex>
         
@@ -14,7 +14,7 @@
         <v-text-field
           label="Senha"
           type= "password"
-          color="#FBC02D"
+          color="black"
           
         ></v-text-field>
        </v-flex>
