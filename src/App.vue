@@ -6,20 +6,20 @@
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn flat to="/QuemSomos" >Quem somos?</v-btn> 
-        <v-btn flat to="/Processo">Processo</v-btn>
-        <v-btn flat to="/Invista">Invista</v-btn>
+        <v-btn flat to="/Projeto">O Projeto</v-btn>
+        <v-btn flat to="/Doacao">Invista</v-btn>
       </v-toolbar-items>
     </v-toolbar>
 
     <v-navigation-drawer absolute temporary v-model="menu">
-      <v-toolbar color="teal lighten-2 white--text">
-        <h1>4all</h1>
+      <v-toolbar color="#00ACC1">
+        <h1>4ALL</h1>
       </v-toolbar>
       <v-divider></v-divider>
       <v-list dense>
         <v-list-tile v-for="item in itensMenu" :keys="item.rota" :to="item.rota">
           <v-list-tile-action>
-            <v-icon color="teal">{{item.icone}}</v-icon>
+            <v-icon color="#00ACC1">{{item.icone}}</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             {{item.texto}}
@@ -47,7 +47,7 @@
           {
             rota: "/Doacao",
             icone: "local_atm",
-            texto: "Faça Uma Doação"
+            texto: "Invista"
           },
                   
           {
